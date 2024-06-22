@@ -1,0 +1,34 @@
+body{
+    background-color: #212121;
+    color: #fff;;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+}
+hr{
+    color: white;
+}
+a{
+    border: 2px solid black;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+.center{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#clock{
+    font-size: 40px;
+    background-color: orange;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
